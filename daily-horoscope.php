@@ -58,7 +58,7 @@ class HonestDailyHoroscope {
 			'sign' => ''
 			), $atts));
 
-		return '<strong>Daily horoscope for ' . $sign . ', ' . date_i18n('j F Y') . ':</strong> The position and behavior of the stars and planets have absolutely no influence on anything in your life.';
+		return '<strong>' . __('Daily horoscope for ') . $sign . ', ' . date_i18n('j F Y') . ': </strong>' . __('The position and behavior of the stars and planets have absolutely no influence on anything in your life.');
 
 	}
 
